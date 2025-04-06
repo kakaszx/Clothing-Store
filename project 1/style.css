@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #0d0d0d;
+  --cor1: #f2f2f2;
+  --cor2: #d97904;
+  --cor3: #3c3e40;
+  --cor4: #6e7073;
+}
+
+header {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+
+  background-color: white;
+  box-shadow: 1px 3px 3px var(--cor0);
+  padding: 30px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  text-shadow: 1px 1px 1px black;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav > a:hover {
+  text-decoration: underline;
+}
+/* MAIN */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor1);
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #0d0d0d;
+}
+footer > p {
+  font-family: "Notable", sans-serif;
+  color: white;
+  text-align: center;
+}
