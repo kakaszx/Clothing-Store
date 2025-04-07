@@ -54,6 +54,17 @@ body {
   background-color: var(--cor1);
 }
 
+.quadrado {
+  border: 1px solid black;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: url(https://tr.rbxcdn.com/180DAY-8f2164a0c816a65707798b23d3268848/420/420/LayeredAccessory/Webp/noFilter);
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
+
 /* FOOTER */
 
 footer {
