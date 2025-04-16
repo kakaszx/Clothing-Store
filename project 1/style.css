@@ -69,16 +69,22 @@ body {
 .container {
   display: grid;
   grid-template-columns: 22vh 21vh;
-  grid-template-rows: 60vw 60vw 60vw 60vw 60vw;
+  grid-template-rows: 60vw 60vw 60vw 60vw 60vw 60vw 60vw 60vw 60vw ;
   grid-template-areas:
     "item-1 item-2"
     "item-3 item-4"
     "item-5 item-6"
     "item-7 item-8"
-    "item-9 item-10";
-  grid-gap: 10px;
+    "item-9 item-10"
+    "item-11 item-12"
+    "item-13 item-14"
+    "item-15 item-16"
+    "item-17 item-18";
+  grid-gap: 15px;
 
- 
+  background-color: #ccc;
+  padding: 20px;
+  border: 1px solid blue;
   padding: 15px;
 }
 .container .peca {
@@ -114,8 +120,9 @@ body {
 
 .container div {
   padding: 20px;
+  background-color: #333;
+  border: 3px solid red;
 }
-
 
 /* itens */
 #item-1 {
@@ -191,9 +198,67 @@ body {
   background-repeat: no-repeat;
   grid-column: 2 / 2;
 }
+#item-11 {
+  background-image: url(https://tr.rbxcdn.com/180DAY-f653b5d21b75d5b62797f6f5e9c595f8/420/420/Pants/Webp/noFilter);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  grid-column: 1 / 1;
+}
+
+#item-12 {
+  background-image: url(https://tr.rbxcdn.com/180DAY-1961425f39a0b642cac90234cfa3cce8/420/420/Shirt/Webp/noFilter);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  grid-column: 2 / 2;
+}
+  #item-13 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-ea8eee439f37c5bedfdbae015d2eab5a/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+  }
+  #item-14 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-8e465768107d6369c6169ec6e11391fa/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+  }
+  #item-15 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-71dd30f6228877a418557fa429f97434/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+  }
+  #item-16 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-e6da6f24b33468e73b84bb566fb2733b/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+  }
+  #item-17 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-0113846e64be64d775acb2692a3d4036/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+  }
+  #item-18 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-aaca42c2abdc401ddf935f7c201dd07d/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+  }
 
 section p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
   padding: 10px;
   text-align: center;

@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+/* media-query */
+
+/* Telas Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 41vh 42vh;
+    grid-template-rows: 60vw 60vw 60vw 60vw 60vw;
+    grid-template-areas:
+      "item-1 item-2"
+      "item-3 item-4"
+      "item-5 item-6"
+      "item-7 item-8"
+      "item-9 item-10"
+      "item-11 item-12"
+      "item-13 item-14"
+      "item-15 item-16"
+      "item-17 item-18";
+    grid-gap: 10px;
+
+    padding: 15px;
+  }
+}
+/* Telas Notebook */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: 36vh 36vh 36vh;
+    grid-template-rows: 40vw 40vw 40vw 40vw 40vw 40vw;
+    grid-template-areas:
+      "item-1 item-2 item-3"
+      "item-4 item-5 item-6"
+      "item-7 item-8 item-9"
+      "item-10 item-11 item-12"
+      "item-13 item-14 item-15"
+      "item-16 item-17 item-18";
+
+    grid-gap: 15px;
+
+    padding: 15px;
+  }
+
+  #item-1 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-8f2164a0c816a65707798b23d3268848/420/420/LayeredAccessory/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 1 / 1;
+  }
+
+  #item-2 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-7d1d50427ed04a0a9f4a06032232ea16/420/420/Shirt/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 2 / 2;
+  }
+
+  #item-3 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-9550b792c8dbd6ced26e30e8eee94f77/420/420/LayeredAccessory/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 3 / 3;
+  }
+  #item-4 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-83b043847672a1573795c227c6ec9f44/420/420/LayeredAccessory/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 1 / 1;
+  }
+  #item-5 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-cebcd8dcb874b7a376a2d01f07d95c25/420/420/LayeredAccessory/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 2 / 2;
+  }
+  #item-6 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-261678c3b72862c59da48c7952c4cb0e/420/420/LayeredAccessory/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 3 / 3;
+  }
+  #item-7 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-a688f44d96835940e44f0e9329803dbe/420/420/Shirt/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 1 / 1;
+  }
+  #item-8 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-7f0e9ec2108b0ed0715233f3ed55225a/420/420/Shirt/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 2 / 2;
+  }
+  #item-9 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-177a54fefec2e3d8e39a1ce6642d708d/420/420/Shirt/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 3 / 3;
+  }
+
+  #item-10 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-200322343b6f00a416f3fc395420ec12/420/420/Pants/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 1 / 1;
+  }
+
+  #item-11 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-f653b5d21b75d5b62797f6f5e9c595f8/420/420/Pants/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 2 / 2;
+  }
+
+  #item-12 {
+    background-image: url(https://tr.rbxcdn.com/180DAY-1961425f39a0b642cac90234cfa3cce8/420/420/Shirt/Webp/noFilter);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-column: 3 / 3;
+  }
+    #item-13 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-ea8eee439f37c5bedfdbae015d2eab5a/420/420/LayeredAccessory/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 1 / 1;
+    }
+    #item-14 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-8e465768107d6369c6169ec6e11391fa/420/420/Pants/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 2 / 2;
+    }
+    #item-15 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-71dd30f6228877a418557fa429f97434/420/420/Pants/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 3 / 3;
+    }
+    #item-16 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-e6da6f24b33468e73b84bb566fb2733b/420/420/Shirt/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 1 / 1;
+    }
+    #item-17 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-0113846e64be64d775acb2692a3d4036/420/420/Pants/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 2 / 2;
+    }
+    #item-18 {
+        background-image: url(https://tr.rbxcdn.com/180DAY-aaca42c2abdc401ddf935f7c201dd07d/420/420/Pants/Webp/noFilter);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        grid-column: 3 / 3;
+    }
+}
+
+/* Grande Tela PC */
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+    .container {
+      display: grid;
+      grid-template-columns: 30vh 30vh 30vh 30vh;
+      grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
+      grid-template-areas:
+        "item-1 item-2 item-3"
+        "item-4 item-5 item-6"
+        "item-7 item-8 item-9"
+        "item-10 item-11 item-12"
+        "item-13 item-14 item-15"
+        "item-16 item-17 item-18";
+  
+      grid-gap: 15px;
+  
+      padding: 15px;
+    }
+  
+    #item-1 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-8f2164a0c816a65707798b23d3268848/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+    }
+  
+    #item-2 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-7d1d50427ed04a0a9f4a06032232ea16/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+    }
+  
+    #item-3 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-9550b792c8dbd6ced26e30e8eee94f77/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 3 / 3;
+    }
+    #item-4 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-83b043847672a1573795c227c6ec9f44/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 4 / 4;
+    }
+    #item-5 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-cebcd8dcb874b7a376a2d01f07d95c25/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+    }
+    #item-6 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-261678c3b72862c59da48c7952c4cb0e/420/420/LayeredAccessory/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+    }
+    #item-7 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-a688f44d96835940e44f0e9329803dbe/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 3 / 3;
+    }
+    #item-8 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-7f0e9ec2108b0ed0715233f3ed55225a/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 4 / 4;
+    }
+    #item-9 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-177a54fefec2e3d8e39a1ce6642d708d/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 1 / 1;
+    }
+  
+    #item-10 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-200322343b6f00a416f3fc395420ec12/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 2 / 2;
+    }
+  
+    #item-11 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-f653b5d21b75d5b62797f6f5e9c595f8/420/420/Pants/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 3 / 3;
+    }
+  
+    #item-12 {
+      background-image: url(https://tr.rbxcdn.com/180DAY-1961425f39a0b642cac90234cfa3cce8/420/420/Shirt/Webp/noFilter);
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      grid-column: 4 / 4;
+    }
+      #item-13 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-ea8eee439f37c5bedfdbae015d2eab5a/420/420/LayeredAccessory/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 1 / 1;
+      }
+      #item-14 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-8e465768107d6369c6169ec6e11391fa/420/420/Pants/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 2 / 2;
+      }
+      #item-15 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-71dd30f6228877a418557fa429f97434/420/420/Pants/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 3 / 3;
+      }
+      #item-16 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-e6da6f24b33468e73b84bb566fb2733b/420/420/Shirt/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 4 / 4;
+      }
+      #item-17 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-0113846e64be64d775acb2692a3d4036/420/420/Pants/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 1 / 1;
+      }
+      #item-18 {
+          background-image: url(https://tr.rbxcdn.com/180DAY-aaca42c2abdc401ddf935f7c201dd07d/420/420/Pants/Webp/noFilter);
+          background-size: contain;
+          background-position: top center;
+          background-repeat: no-repeat;
+          grid-column: 2 / 2;
+      }
+  }
+  
