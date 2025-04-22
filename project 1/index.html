@@ -12,26 +12,31 @@
       rel="stylesheet"
     />
   </head>
-  <body onresize="mudouTamanho()">
+  <body>
     <header>
       <h1>Peak Company ©</h1>
     </header>
-    
+
     <!-- Area Login -->
     <section class="login">
-      <span id="iclog" class="material-icons"> <a href="arealogin/arealogin.html" target="_self" rel="next">account_circle</a> </span>
-      <span id="iccart" class="material-icons"> <a href="#" target="_self" rel="next">shopping_cart</a> </span>
+      <span id="iclog" class="material-icons">
+        <a href="arealogin/arealogin.html" target="_self" rel="next"
+          >account_circle</a
+        >
+      </span>
+      <span id="iccart" class="material-icons">
+        <a href="#" target="_self" rel="next">shopping_cart</a>
+      </span>
     </section>
 
-      <!-- Menu Hamburguer -->
-      <section id="menuburger">
-           <span class="material-icons md-36"  onclick="clickMenu()"> menu </span>
-         </div>
-      </section>
-      <!-- Navegação -->
-      <menu id="itens">
+    <!-- Menu Hamburguer -->
+    <section id="menuburger">
+      <span class="material-icons md-36" onclick="clickMenu()"> menu </span>
+    </section>
+    <!-- Navegação -->
+    <menu id="itens">
       <nav>
-        <a href="#">Inicio</a>
+        <a href="index.html">Inicio</a>
         <a href="#">Vestuário</a>
         <a href="#">Acessórios</a>
         <a href="#">Marcas</a>
@@ -44,101 +49,108 @@
         <div class="container">
           <div id="item-1">
             <span>
-              <strong class="peca"> I Have Autism</strong>
+              <a href="#"><strong class="peca"> I Have Autism</strong></a>
               <strong class="preco">R$300,00</strong>
             </span>
           </div>
           <div id="item-2">
             <span>
-              <strong class="peca"> Kayne West <br />Blusa </strong>
+              <a href="#"
+                ><strong class="peca"> Kayne West <br />Blusa </strong></a
+              >
               <strong class="preco">R$200,00</strong>
             </span>
           </div>
           <div id="item-3">
             <span>
-              <strong class="peca"> Im Gay</strong>
+              <a href="#"><strong class="peca"> Im Gay</strong></a>
               <strong class="preco">R$150,00</strong>
             </span>
           </div>
           <div id="item-4">
             <span>
-              <strong class="peca"> MCQueen Crocs</strong>
+              <a href="#"><strong class="peca"> MCQueen Crocs</strong></a>
               <strong class="preco">R$200,00</strong>
             </span>
           </div>
           <div id="item-5">
             <span>
-              <strong class="peca"> Fantasia Alien</strong>
+              <a href="#"><strong class="peca"> Fantasia Alien</strong></a>
               <strong class="preco">R$450,00</strong>
             </span>
           </div>
           <div id="item-6">
             <span>
-              <strong class="peca"> Gold Man</strong>
+              <a href="#"><strong class="peca"> Gold Man</strong></a>
               <strong class="preco">R$1500,00</strong>
             </span>
           </div>
           <div id="item-7">
             <span>
-              <strong class="peca"> Virei CLT</strong>
+              <a href="#"><strong class="peca"> Virei CLT</strong></a>
               <strong class="preco">R$100,00</strong>
             </span>
           </div>
           <div id="item-8">
             <span>
-              <strong class="peca"> McQueen Camisa</strong>
+              <a href="#"><strong class="peca"> McQueen Camisa</strong></a>
               <strong class="preco">R$120,00</strong>
             </span>
           </div>
           <div id="item-9">
             <span>
-              <strong class="peca"> Adidas <br />Fire and Ice</strong>
+              <a href="#"
+                ><strong class="peca"> Adidas <br />Fire and Ice</strong></a
+              >
               <strong class="preco">R$500,00</strong>
             </span>
           </div>
           <div id="item-10">
             <span>
-              <strong class="peca"> Cueca Ben10</strong>
+              <a href="#"><strong class="peca"> Cueca Ben10</strong></a>
               <strong class="preco">R$50,00</strong>
             </span>
           </div>
           <div id="item-11">
             <span>
-              <strong class="peca"> Pijama Batman</strong>
+              <a href="#"><strong class="peca"> Pijama Batman</strong></a>
               <strong class="preco">R$110,00</strong>
             </span>
           </div>
           <div id="item-12">
             <span>
-              <strong class="peca"> Ficando Calvo</strong>
+              <a href="#"><strong class="peca"> Ficando Calvo</strong></a>
               <strong class="preco">R$70,00</strong>
             </span>
           </div>
           <div id="item-13">
             <span>
-              <strong class="peca"> Kayne West <br />Camisa</strong>
+              <a href="#"
+                ><strong class="peca"> Kayne West <br />Camisa</strong></a
+              >
               <strong class="preco">R$80,00</strong>
             </span>
           </div>
           <div id="item-14">
             <span>
-              <strong class="peca"> Cueca Coração</strong>
+              <a href="#"><strong class="peca"> Cueca Coração</strong></a>
               <strong class="preco">R$49,99</strong>
             </span>
           </div>
           <div id="item-15">
             <span>
-              <strong class="peca">
-                Pijama <br />
-                SpiderMan</strong
+              <a href="#"
+                ><strong class="peca">
+                  Pijama <br />
+                  Spider Man</strong
+                ></a
               >
               <strong class="preco">R$122,00</strong>
             </span>
           </div>
-
           <div id="item-16">
             <span>
-              <strong class="peca">Traje Goku</strong>
+              <a href="#"><strong class="peca">Traje Goku</strong></a>
               <strong class="preco">R$220,00</strong>
             </span>
           </div>
@@ -148,10 +160,12 @@
         <p>Fique trajado com a Peak Company.</p>
       </section>
       <section>
-        <div class="formulario">
+        <div class="form">
           <form action="cadastro.php" method="post" autocomplete="on">
-            <fieldset class="dformulario">
-              <legend>Fique atento as nossas novidades!</legend>
+            <fieldset class="dform">
+              <legend>
+                󠀡󠀡󠀡󠀡󠀡󠀡 󠀡󠀡 Fique atento as nossas novidades! 󠀡󠀡󠀡󠀡 󠀡󠀡
+              </legend>
               <p>
                 <label for="inome">Nome:</label>
                 <input
@@ -193,7 +207,7 @@
         </div>
       </section>
     </main>
-    <footer><p>Peak Company all directs reserved ©</p></footer>
+    <footer><p>Peak Company all directs reserved.</p></footer>
     <script>
       function clickMenu() {
         if (itens.style.display == "block") {

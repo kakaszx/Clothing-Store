@@ -507,7 +507,7 @@
     grid-column: 4 / 4;
   }
 
-  .formulario {
+  .form {
     background-color: #0d0d0d;
     color: white;
     padding: 20px;
@@ -767,14 +767,14 @@
   }
 
   /* Formulario */
-  .formulario {
+  .form {
     background-color: #0d0d0d;
     color: white;
     padding: 20px;
     font-family: "Notable", sans-serif;
   }
 
-  .dformulario {
+  .dform {
     text-align: center;
     border-radius: 5px;
     display: flex;
