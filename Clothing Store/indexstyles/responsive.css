@@ -33,23 +33,7 @@
   }
 
   .login {
-    background-color: white;
-    display: flex;
     justify-content: flex-end;
-    max-height: 3.5%;
-
-    /* border: 3px solid pink; */
-  }
-
-  .login > span {
-    display: flex;
-    align-items: center;
-    margin: 2%;
-  }
-
-  .login > span > a {
-    text-decoration: none;
-    color: black;
   }
 
   #iclog {
@@ -121,23 +105,8 @@
   }
 
   .login {
-    background-color: white;
-    display: flex;
     justify-content: flex-end;
     max-height: 4%;
-
-    /* border: 3px solid pink; */
-  }
-
-  .login > span {
-    display: flex;
-    align-items: center;
-    margin: 2%;
-  }
-
-  .login > span > a {
-    text-decoration: none;
-    color: black;
   }
 
   #iclog {
@@ -276,23 +245,10 @@
   }
 
   .login {
-    background-color: white;
-    display: flex;
     justify-content: flex-end;
     max-height: 5%;
 
     /* border: 3px solid pink; */
-  }
-
-  .login > span {
-    display: flex;
-    align-items: center;
-    margin: 2%;
-  }
-
-  .login > span > a {
-    text-decoration: none;
-    color: black;
   }
 
   #iclog {
@@ -427,8 +383,6 @@
   }
 
   .login {
-    background-color: white;
-    display: flex;
     justify-content: flex-end;
     max-height: 3%;
     padding-bottom: 0.5%;
