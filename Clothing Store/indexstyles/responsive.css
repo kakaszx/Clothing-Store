@@ -38,7 +38,7 @@
     justify-content: flex-end;
     max-height: 3.5%;
 
-   /* border: 3px solid pink; */
+    /* border: 3px solid pink; */
   }
 
   .login > span {
@@ -126,7 +126,7 @@
     justify-content: flex-end;
     max-height: 4%;
 
-   /* border: 3px solid pink; */
+    /* border: 3px solid pink; */
   }
 
   .login > span {
@@ -315,7 +315,7 @@
 
   nav > a {
     font-size: 1.2rem;
-    margin: .5%;
+    margin: 0.5%;
   }
 
   nav > a:hover {
@@ -334,7 +334,7 @@
     justify-content: flex-end;
     max-height: 5%;
 
-   /* border: 3px solid pink; */
+    /* border: 3px solid pink; */
   }
 
   .login > span {
@@ -368,7 +368,6 @@
     color: var(--cor2);
     transition: all 0.3s ease-in-out;
   }
-
 
   .container {
     max-width: 77%;
@@ -582,7 +581,7 @@
   }
   nav > a {
     font-size: 1.2rem;
-    margin: .5%;
+    margin: 0.5%;
   }
 
   /* Area Login */
