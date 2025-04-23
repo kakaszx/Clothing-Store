@@ -28,7 +28,6 @@ menu > nav {
   padding: 10px;
   background-color: black;
   text-shadow: 1px 1px 1px black;
-  width: 100%;
 }
 nav > a {
   text-decoration: none;
@@ -54,6 +53,16 @@ nav > a {
   color: white;
 }
 
+header {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  text-align: center;
+
+  background-color: white;
+  margin-top: 5vh;
+}
 /* Area Login  */
 
 
@@ -82,7 +91,8 @@ main {
   align-items: center;
 
   width: 99vw;
-  height: 35vh;
+  height: 15vh;
+  margin-bottom: 25vh;
 
   border: none;
 }
