@@ -7,6 +7,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 :root {
@@ -77,9 +78,9 @@ nav > a {
 
 .login {
   background-color: white;
-    display: flex;
-    justify-content: start;
-    max-height: 3.5%;
+  display: flex;
+  justify-content: start;
+  max-height: 3.5%;
 }
 .login > span {
   display: flex;
@@ -166,8 +167,6 @@ body {
   text-decoration: none;
 }
 
-
-
 /* itens */
 #item-1 {
   background-image: url(https://tr.rbxcdn.com/180DAY-8f2164a0c816a65707798b23d3268848/420/420/LayeredAccessory/Webp/noFilter);
@@ -251,7 +250,7 @@ body {
 }
 
 #item-12 {
-  background-image: url(https://tr.rbxcdn.com/180DAY-1961425f39a0b642cac90234cfa3cce8/420/420/Shirt/Webp/noFilter);
+  background-image: url(https://tr.rbxcdn.com/180DAY-cace073bc1638b1d6a96750b89bea137/420/420/LayeredAccessory/Webp/noFilter);
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
@@ -302,23 +301,25 @@ section p {
 }
 
 .dform {
-  text-align: center;
-  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
   margin: 0 auto;
   width: 70%;
+
+  border: none;
   padding: 20px;
 }
 
 #inome {
-  width: 100%;
-  padding: 3px;
-  border-radius: 5px;
-  border: none;
-  background-color: #f2f2f2;
+  max-width: 100vw;
+  width: 50vw;
+
+  padding: 10px;
+  border: 1px solid;
 }
 #inome:focus {
   outline: none;
@@ -327,11 +328,11 @@ section p {
 }
 
 #iemail {
-  width: 100%;
-  padding: 3px;
-  border-radius: 5px;
-  border: none;
-  background-color: #f2f2f2;
+  max-width: 100vw;
+  width: 50vw;
+
+  padding: 10px;
+  border: 1px solid;
 }
 #iemail:focus {
   outline: none;
@@ -340,11 +341,11 @@ section p {
 }
 
 #itelefone {
-  width: 100%;
-  padding: 3px;
-  border-radius: 5px;
-  border: none;
-  background-color: #f2f2f2;
+  max-width: 100vw;
+  width: 50vw;
+
+  padding: 10px;
+  border: 1px solid;
 }
 #itelefone:focus {
   outline: none;
