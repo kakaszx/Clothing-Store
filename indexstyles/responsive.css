@@ -28,10 +28,6 @@
 
   /* Area Login */
 
-  header {
-    padding: 2.5%;
-  }
-
   .login {
     justify-content: flex-end;
   }
@@ -393,7 +389,7 @@
   .login > span {
     display: flex;
     align-items: center;
-    margin: 0.9%;
+    margin: .5%;
   }
 
   #iclog {
